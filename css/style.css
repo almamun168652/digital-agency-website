@@ -97,19 +97,19 @@
 /* service css */
 
 #services{
-    height: 100vh;
+    height: 100vh ;
     background-image: url('../asset/image/footer-bg.png'),
     linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px;
-    box-sizing: border-box;
+    padding: 15px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
+    padding-bottom: 100px;
 }
 .service-box,
 .service-content{
@@ -194,7 +194,7 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .service-box-item{
@@ -209,4 +209,57 @@
 .service-box-item img{
     width: 100px;
     padding: 20px;
+}
+
+
+/* appoinment css */
+
+#appoinment{
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+    background: red;
+    border-radius: 10px;
+    margin-top: -75px;
+}
+
+.ap-content-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #fff;
+}
+
+.ap-content-call{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.ap-content-call img{
+    width: 80px;
+    padding: 15px;
+}
+
+.ap-content-desc p{
+    line-height: 1.5rem;
+}
+
+.ap-content-btn{
+    background: #fff;
+    padding: 16px 50px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.ap-content-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
 }
