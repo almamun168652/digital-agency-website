@@ -1,0 +1,39 @@
+/* common css */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+/* header css */
+
+#header{
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 150px;
+    background-color: rgba(172, 166, 166, 0.5);
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 5rem;
+}
