@@ -95,3 +95,118 @@
 
 
 /* service css */
+
+#services{
+    height: 100vh;
+    background-image: url('../asset/image/footer-bg.png'),
+    linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.service-box,
+.service-content{
+    width: 50%;
+}
+
+.service-content{
+    color: #fff;
+}
+
+.service-content .service-list-btn{
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.service-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(190, 207, 208);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.service-content h1 span{
+    color: red;
+    margin-top: 100px;
+}
+
+.service-content P{
+    width: 75%;
+    font-size: 20px;
+    color: rgb(190, 207, 208);
+    margin-bottom: 20px;
+}
+
+.service-content ol li {
+    font-size: 18px;
+    color:rgb(190, 207, 208) ;
+}
+
+.profile-more-wrapper{
+    margin-top: 20px;
+    display: flex;
+    max-width: 450px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-right: 1px solid red;
+    padding-right: 80px;
+}
+
+.service-profile img{
+    border-radius: 100%;
+    width: 70px;
+}
+
+.more-details-btn{
+    background: #fff;
+    color: red;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.service-box-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-box-item{
+    background: #fff;
+    width: 194px;
+    height: 194px;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-box-item img{
+    width: 100px;
+    padding: 20px;
+}
