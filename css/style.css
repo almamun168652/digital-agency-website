@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     padding:0 150px;
-    background-color: rgba(172, 166, 166, 0.5);
+    background-color: rgb(71, 71, 71);
 }
 
 .navbar ul{
@@ -33,7 +33,65 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 20px;
     line-height: 5rem;
 }
+
+
+/* banner css */
+#banner{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg') ,
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-content h1{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-content h1 span{
+    color: red;
+}
+
+.banner-content p{
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner-content .banner-btn-wrapper{
+    margin-top: 20px;
+}
+
+.banner-content .btn{
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.banner-content .btn-discover{
+    background-color: red;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.banner-content .btn-hire{
+    background-color: #fff;
+}
+
+
+
+
+/* service css */
